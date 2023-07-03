@@ -1,0 +1,38 @@
+.container{
+    width: 100%; 
+}
+
+.nav-bar{
+    background-color:#0080ff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+}
+
+.nav-bar .logo img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.nav-bar .links_paginas ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-bar ul li a{
+    padding: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover{
+    color: #000;
+    font-size: 20px;
+    text-shadow: 1px 5px 10px #000;
+}
