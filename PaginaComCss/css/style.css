@@ -36,3 +36,57 @@
     font-size: 20px;
     text-shadow: 1px 5px 10px #000;
 }
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.historia{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+h2{
+    text-align: center;
+}
+.historia p{
+    text-align: justify;
+}
+
+.colaboradores{
+    text-align: center;
+}
+
+.colaboradores .cards{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.colaboradores .cards img{
+    width: 80px;
+}
+
+iframe{
+    margin: auto;
+    display: block;
+}
+
+footer{
+    padding: 20px 0;
+   /* margin: 10px 0 5px 0;*/
+    margin-top: 10px;
+    background-color: #CCC;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
