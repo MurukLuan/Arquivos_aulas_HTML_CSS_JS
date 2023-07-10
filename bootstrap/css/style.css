@@ -1,0 +1,12 @@
+nav ul li a{
+    font-weight: bold!important;
+}
+
+nav ul li a:hover{
+    margin-top: -3px;
+    /*color: blue!important;*/
+}
+
+.card-header{
+    color: #FFF;
+}
