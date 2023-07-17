@@ -7,6 +7,18 @@ nav ul li a:hover{
     /*color: blue!important;*/
 }
 
-.card-header{
+.card-header, .bloco-oferecemos, footer{
     color: #FFF;
+}
+
+.oferecemos i{
+    color:blueviolet;
+}
+
+.meu_button{
+    background-color: blue!important ;
+}
+
+.collapsed{
+    background-color: black!important;
 }
