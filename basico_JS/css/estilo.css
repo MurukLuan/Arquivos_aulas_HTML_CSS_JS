@@ -1,0 +1,44 @@
+#card-tarefas{
+    background: linear-gradient(135deg, rgb(41,153,233), rgb(41,63,233));
+    border-radius: 10px;
+}
+
+#card-tarefas h3{
+    color: #FFF;
+    text-shadow: 1px 1px 1px black;
+}
+
+.list-group{
+    border-radius: 5px!important;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 22px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+ul li span:hover{
+    text-shadow: 1px 1px 1px red;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circulo{
+    float: left;
+    margin-right: 5px;
+    color: rgb(58, 59, 58)
+}
+
+.circulo:hover{
+    cursor: pointer;
+}
+
+ul li{
+    margin-top: 5px;
+}

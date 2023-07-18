@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Tarefas</title>
+</head>
+<body>
+
+    <h1 class="text-center">Lista de Tarefas</h1>
+
+    <div class="container">
+        <div class="row d-flex flex-column align-items-center mx-auto">
+            <div class="col-6">
+                <div class="card" id="card-tarefas">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Tarefas</h3>
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputTarefas">
+                            <button type="button" onclick="adicionarTarefa()" class="btn btn-success">Incluir tarefa</button>
+                        </div>
+
+                        <ul class="list-group list-group-flush" id="tarefasInseridas">
+                           <!-- <li class="list-group-item">Tarefa exemplo 1</li>
+                            <li class="list-group-item">Tarefa exemplo 2</li>
+                            <li class="list-group-item">Tarefa exemplo 3</li>
+                            <li class="list-group-item">Tarefa exemplo 4</li>-->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/tarefa.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
